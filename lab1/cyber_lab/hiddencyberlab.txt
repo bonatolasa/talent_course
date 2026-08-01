@@ -1,0 +1,20 @@
+
+       THE LINUX CLI CHALLENGE: LAB
+please do not use Ai
+
+[LEVEL 1]
+- Q1.1 List all files including hidden ones in the current directory.
+- Q1.2 Find and read the hidden file named '.secret_welcome.txt' to get the flag.
+- Q1.3 Count lines and words in this 'hiddencyberlab.txt' file using 'wc'.
+
+[LEVEL 2]
+- Q2.1 Find all files with a '.txt' extension inside the lab directory.
+- Q2.2 Search for the word 'cyber' (case-insensitive) in 'notes.txt' and show line numbers.
+- Q2.3 Filter out lines containing 'error' and count the remaining lines.
+
+[LEVEL 3]
+- Q3.1  Use 'strings' on 'data.bin' combined with 'grep' to find the hidden secret.
+- Q3.2  Recursively search for the string 'FLAG{' inside all directories.
+- Q3.3  combined via pipes (|) to count total secrets.
+
+BBD
