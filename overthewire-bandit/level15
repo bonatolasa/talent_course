@@ -1,0 +1,10 @@
+ ssh bandit15@bandit.labs.overthewire.org -p 2220
+
+ openssl s_client is the implementation of a simple client that connects to a server using SSL/TLS.
+   openssl s_client -connect localhost:30001
+
+Then enter current password
+ pbLYuZtTg4MgaqfJx8jbA9gKKGqM68A7
+Correct!
+ kS0Hf0u5HiXFwKMKFqXvPdOTNGGa0X8V
+
