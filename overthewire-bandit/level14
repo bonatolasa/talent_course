@@ -1,0 +1,7 @@
+First, we get the current level password using the command:
+
+     cat /etc/bandit_pass/bandit14
+
+Next, we send this password to the port using:
+
+     echo <password_of_current level> | nc localhost 30000
