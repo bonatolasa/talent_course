@@ -1,0 +1,8 @@
+$ ssh bandit18@bandit.labs.overthewire.org -p 2220 ls
+bandit18@bandit.labs.overthewire.org's password: 
+readme
+
+ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme
+
+bandit18@bandit.labs.overthewire.org's password: 
+IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
