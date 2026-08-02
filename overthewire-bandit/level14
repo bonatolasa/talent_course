@@ -5,3 +5,5 @@ First, we get the current level password using the command:
 Next, we send this password to the port using:
 
      echo <password_of_current level> | nc localhost 30000
+
+pass : pbLYuZtTg4MgaqfJx8jbA9gKKGqM68A7
