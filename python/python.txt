@@ -1,0 +1,45 @@
+Got it — let’s walk through some **Python basics** in a way that’s practical and easy to build on.  
+
+---
+
+## 🔑 Core Concepts
+
+- **Variables**: Store values for reuse.  
+  ```python
+  name = "Bonsa"
+  age = 25
+  ```
+
+- **Data types**: Strings, integers, floats, booleans, lists, dictionaries.  
+  ```python
+  price = 19.99      # float
+  is_active = True   # boolean
+  fruits = ["apple", "banana", "cherry"]  # list
+  ```
+
+- **Control flow**: `if`, `elif`, `else` for decisions.  
+  ```python
+  if age >= 18:
+      print("Adult")
+  else:
+      print("Minor")
+  ```
+
+- **Loops**: Repeat actions with `for` or `while`.  
+  ```python
+  for fruit in fruits:
+      print(fruit)
+  ```
+
+- **Functions**: Reusable blocks of code.  
+  ```python
+  def greet(user):
+      return f"Hello, {user}!"
+  
+  print(greet("Bonsa"))
+  ```
+
+- **Modules**: Import libraries to extend functionality.  
+  ```python
+  import math
+  print(math.sqrt(16))
