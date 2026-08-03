@@ -1,0 +1,26 @@
+There is a setuid binary in the homedirectory that does the following: 
+it makes a connection to localhost on the port you specify as a commandline argument.
+ It then reads a line of text from the connection and compares it to the
+ password in the previous level (bandit20).
+ If the password is correct, it will transmit the password for the next
+ level (bandit21).
+
+first see 
+            ls -la
+
+you will something like:  
+                         -rwsr-x--- 1 bandit21 bandit20 ... suconnect
+Then,
+         nc -l 1234
+
+Open another SSH session
+
+ssh bandit20@bandit.labs.overthewire.org -p 2220
+
+./suconnect 1234
+
+The program will connect to your 'nc' listener.
+Go back to the terminal running nc and type the Bandit 20 password, then press Enter:
+
+
+NEW pass: bW9kBv5WC3P4yoDyf12LSdGuNz5ka6hY

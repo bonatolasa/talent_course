@@ -1,6 +1,10 @@
 First, we check who the owner of the setuid binary is:
 
 bandit19@bandit:~$ ls -la
+
+Run a command as another user.
+  Example: ./bandit20-do id
+
 bandit19@bandit:~$ ./bandit20-do ls /etc/bandit_pass
 bandit19@bandit:~$ ./bandit20-do cat /etc/bandit_pass/bandit20
 
